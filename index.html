@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Meu Amor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Para o Amor da Minha Vida</h1>
+            <p class="subtitle">Desde 03/05/2020</p>
+        </header>
+
+        <section class="main-content">
+            <div class="card intro-card">
+                <div class="card-content">
+                    <h2>Olá, meu amor</h2>
+                    <p>Criei este site especialmente para você, minha veterinária favorita!</p>
+                    <button id="start-btn" class="btn">Começar nossa jornada</button>
+                </div>
+                <div class="card-image">
+                    <img src="img/placeholder1.jpg" alt="Imagem de um casal" class="placeholder-img">
+                </div>
+            </div>
+
+            <div class="card message-card hidden" id="message-1">
+                <div class="card-content">
+                    <h2>Você sabia?</h2>
+                    <p>Assim como os cães têm um olfato incrível para encontrar o que procuram, eu também tenho um sentido especial: encontrar motivos para te amar todos os dias.</p>
+                    <button class="btn next-btn">Continuar</button>
+                </div>
+                <div class="card-image">
+                    <img src="img/placeholder2.jpg" alt="Imagem de um cachorro" class="placeholder-img">
+                </div>
+            </div>
+
+            <div class="card message-card hidden" id="message-2">
+                <div class="card-content">
+                    <h2>Conexão Especial</h2>
+                    <p>Dizem que os animais escolhem seus humanos. Eu tive a sorte de você me escolher, e prometo cuidar desse amor com a mesma dedicação que você cuida dos seus pacientes de quatro patas.</p>
+                    <button class="btn next-btn">Próximo</button>
+                </div>
+                <div class="card-image">
+                    <img src="img/placeholder3.jpg" alt="Imagem de veterinária" class="placeholder-img">
+                </div>
+            </div>
+
+            <div class="card message-card hidden" id="message-3">
+                <div class="card-content">
+                    <h2>Nosso Amor</h2>
+                    <p>Como uma planta que cresce em direção ao sol, meu amor por você se fortalece a cada dia, buscando sua luz e calor. Você é o verde que dá vida aos meus dias.</p>
+                    <button class="btn next-btn">Descobrir mais</button>
+                </div>
+                <div class="card-image">
+                    <img src="img/placeholder4.jpg" alt="Imagem de plantas" class="placeholder-img">
+                </div>
+            </div>
+
+            <div class="card question-card hidden" id="question-1">
+                <div class="card-content">
+                    <h2>Uma pergunta importante...</h2>
+                    <p>Você me ama?</p>
+                    <div class="btn-container">
+                        <button id="yes-btn" class="btn yes-btn">Sim</button>
+                        <button id="no-btn" class="btn no-btn">Não</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card message-card hidden" id="yes-response">
+                <div class="card-content">
+                    <h2>Eu sabia! ❤️</h2>
+                    <p>Seu amor é como a medicina mais poderosa - cura qualquer tristeza e multiplica toda alegria.</p>
+                    <button class="btn next-btn">Continuar</button>
+                </div>
+                <div class="card-image">
+                    <img src="img/placeholder5.jpg" alt="Imagem de coração" class="placeholder-img">
+                </div>
+            </div>
+
+            <div class="card final-card hidden" id="final-message">
+                <div class="card-content">
+                    <h2>Minha Declaração Final</h2>
+                    <p>Se o amor fosse uma ciência, você seria minha pesquisa de vida inteira. Se fosse uma arte, você seria minha obra-prima. Se fosse medicina veterinária, você seria minha cura para todos os males.</p>
+                    <p>Obrigado por compartilhar sua vida comigo desde 03/05/2020. Cada dia ao seu lado é uma nova aventura que me faz querer ser uma pessoa melhor.</p>
+                    <p>Te amo mais que todos os cães amam seus donos - e isso é muito!</p>
+                    <div class="heart-container">
+                        <div class="heart"></div>
+                    </div>
+                    <button id="restart-btn" class="btn">Recomeçar</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Feito com amor para você | <span id="current-date"></span></p>
+            <div class="paw-prints"></div>
+        </footer>
+    </div>
+
+    <!-- Patas flutuantes decorativas -->
+    <div class="floating-paw" style="top: 10%; left: 5%;"></div>
+    <div class="floating-paw" style="top: 30%; right: 5%; animation-delay: 1s;"></div>
+    <div class="floating-paw" style="bottom: 20%; left: 10%; animation-delay: 2s;"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
