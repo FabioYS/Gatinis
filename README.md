@@ -1,4 +1,3 @@
-# Instruções para o Site Romântico
 
 ## Sobre o Site
 Este site foi criado especialmente para você se declarar para sua esposa de forma criativa e interativa. O design tem tema verde (relacionado à veterinária) e inclui elementos de pets, especialmente cães, conforme solicitado.
